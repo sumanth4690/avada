@@ -1,0 +1,29 @@
+$bgcolor: rgb(46, 40, 40);
+$textcolor: white;
+$padding :15px 10px 15px 10px;
+$text-size:40px;
+$mcolor:green;
+.aa{
+    background-color: $bgcolor;
+    color: $textcolor;
+    padding: $padding;
+    font-size: $text-size;
+    }
+a:link{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.bdr{
+    border: 5px solid greenyellow;
+    color:white;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: greenyellow;
+
+    // border-color: red;
+}
