@@ -1,12 +1,13 @@
 $bgcolor: rgb(46, 40, 40);
 $textcolor: white;
-$padding :15px 10px 15px 10px;
+$padding :10px;
 $text-size:40px;
 $mcolor:green;
 .aa{
     background-color: $bgcolor;
     color: $textcolor;
     padding: $padding;
+    padding-top: 0px;
     font-size: $text-size;
     }
 a:link{
@@ -22,8 +23,8 @@ a:link{
     border: 5px solid greenyellow;
     color:white;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 30px;
+    margin: 10px;
+    ;
     background-color: greenyellow;
-
-    // border-color: red;
 }

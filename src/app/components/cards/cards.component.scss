@@ -1,0 +1,25 @@
+$btn-1:rgb(216, 166, 4);
+$btn-2:rgb(159, 231, 159);
+$btn-3:rgb(6, 238, 238);
+$radius:9px;
+.btn1{
+    border-color: $btn-1;
+    background-color: $btn-1;
+    border-radius: $radius;
+    margin: 2px;
+}
+.btn2{
+    border-color: $btn-2;
+    background-color: $btn-2;
+    border-radius: $radius;
+    margin: 2px;
+}
+.btn3{
+    border-color: $btn-3;
+    background-color: $btn-3;
+    border-radius: $radius;
+    margin: 2px;
+}
+.size{
+    font-size:50px;
+}
