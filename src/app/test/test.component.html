@@ -1,0 +1,40 @@
+<!--InterPolation-->
+<h1>Ways to do InterPolation</h1>
+<p>welcome {{ name }}</p>
+<p>welcome :{{ name }}</p>
+<p>{{ "welcome : " + name }}</p>
+<p>{{ name.length }}</p>
+<p>{{ name.toUpperCase() }}</p>
+<p>{{ userName() }}</p>
+<p>{{ Url }}</p>
+<!--Property Binding-->
+<h1>Ways to do Property Binding</h1>
+<br />
+<input
+  disabled="true"
+  id="courseId"
+  type="text"
+  value="Property Binding"
+/><br /><br />
+<!--Class Binding-->
+<h1>Ways to do Class Binding</h1>
+<h2 class="textColor">Class Binding</h2>
+<h2 [class]="myText">Class Bindingg</h2>
+<h2 [class]="myText1">Class Binding</h2>
+<h2 [class]="myText2">Class Binding</h2>
+<h2 [class.textColor]="required">Class Binding</h2>
+<h2 [ngClass]="group">Class Binding</h2>
+<h2 [class]="group">Class Binding</h2>
+<!--Style Binding-->
+<h1>Ways to do Style Binding</h1>
+<h2 [style.color]="'blue'">Style Binding</h2>
+<h2 [style.color]="myColor">Style Binding</h2>
+<h2 [style.color]="required ? 'cyan' : 'orange'">Style Binding</h2>
+<h2 [ngStyle]="myStyles">Style Binding</h2>
+<!-- Event Binding--><h1>Ways to do Event Binding</h1>
+<button (click)="onClick()" type="button">Click me</button>
+<button (click)="show()" type="button">Alert</button>
+<h2>{{greet}}</h2>
+<!--Template  Reference-->
+<!-- <input #msg type="text"><br /> <br />
+<button (click)="message(msg.value)" type="button">submit</button> -->
